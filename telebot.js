@@ -159,7 +159,7 @@ bot.on('message', async (msg) => {
   chatHistory.push(chatEntry);
 
   try {
-    const response = await fetch(`https://hoshiyuki-api.my.id/api/voidgpt?text=${encodeURIComponent(q)}&apikey=Hoshiyuki`);
+    const response = await fetch(`https://hoshiyuki-api.my.id/api/voidgpt?text=${encodeURIComponent(q)}&apikey=YOUR_APIKEY`);
     const data = await response.json();
     
     if (data.code === 200) {
