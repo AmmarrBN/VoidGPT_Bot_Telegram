@@ -140,7 +140,7 @@ bot.onText(/^\/start$/, (msg) => {
 
 bot.on('message', async (msg) => {
   const From = msg.chat.id;
-  if (msg.text && (msg.text.toLowerCase() === '/start' || msg.text.toLowerCase() === '/runtime')) {
+  if (msg.text && (msg.text.toLowerCase() === '/start' || msg.text.toLowerCase() === '/runtime' || msg.text.toLowerCase() === '/creator')) {
     return;
   }
 
