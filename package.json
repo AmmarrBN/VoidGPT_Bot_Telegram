@@ -1,0 +1,22 @@
+{
+  "name": "voidgpt",
+  "version": "1.0.0",
+  "description": "Unfiltered Chatbot in OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmmarrBN/VoidGPT_Bot_Telegram.git"
+  },
+  "keywords": [
+    "OpenAI"
+  ],
+  "author": "AmmarBN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmmarrBN/VoidGPT_Bot_Telegram/issues"
+  },
+  "homepage": "https://github.com/AmmarrBN/VoidGPT_Bot_Telegram#readme"
+}
