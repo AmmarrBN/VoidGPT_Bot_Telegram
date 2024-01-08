@@ -83,8 +83,6 @@ bot.onText(/^\/creator$/, (msg) => {
         [{ text: 'Visit Hoshiyuki API', url: 'https://hoshiyuki-api.my.id' }],
       ],
     },
-    parse_mode: 'Markdown',
-    disable_web_page_preview: true,
   };
   bot.sendMessage(From, creatorMessage, { reply_to_message_id: msg.message_id, ...replyMarkup });
 
